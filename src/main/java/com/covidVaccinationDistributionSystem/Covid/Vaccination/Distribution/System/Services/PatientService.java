@@ -72,8 +72,9 @@ public class PatientService {
                         "\n1. Dose Count : %d" +
                         "\n2. Doctor Name : %s" +
                         "\n3. Vaccination Center Type : %s" +
-                        "\n4. Vaccine Type  : %s" +
-                        "\n5. Vaccination Center Name  : %s ",
+                        "\n4. Vaccine Type : %s" +
+                        "\n5. Vaccination Center Name : %s " +
+                        "\n- CVDS",
                 patient.getName(),
                 patient.getDoseCount()+1,
                 doctor.getName(),
