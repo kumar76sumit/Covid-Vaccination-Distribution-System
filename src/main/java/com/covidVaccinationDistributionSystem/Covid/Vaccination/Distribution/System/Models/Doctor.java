@@ -24,4 +24,5 @@ public class Doctor {
     int patientCount;
     @ManyToMany
     List<Patient> patientList;
+    int xyz;
 }
